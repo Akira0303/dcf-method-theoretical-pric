@@ -22,3 +22,6 @@ project/edinet_10y_batch/work/inbox/
 # Allow docs in tools
 !project/edinet_10y_batch/tools/*.md
 !project/edinet_10y_batch/tools_api/*.md
+
+# allow Arelle tool bundle zip in repo
+!tools/bundles/*.zip
