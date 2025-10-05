@@ -1,0 +1,24 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Archives
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Logs & local outputs
+*.log
+*.csv
+*.tsv
+
+# Never commit runtime work dirs
+project/edinet_10y_batch/work/zip/
+project/edinet_10y_batch/work/unzipped/
+project/edinet_10y_batch/work/oim_out/
+project/edinet_10y_batch/work/inbox/
+
+# Allow docs in tools
+!project/edinet_10y_batch/tools/*.md
+!project/edinet_10y_batch/tools_api/*.md
